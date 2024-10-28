@@ -1,0 +1,30 @@
+my_numbers=[0,12,24,36,48,60,72,84,96,108,120,132]
+
+for value in my_numbers :
+    print(int(value)+12) 
+    
+#digit count
+    
+def count_digits(n):
+    return len(str(abs(n)))
+my_number=3547
+print(count_digits(my_number)
+
+print(my_numbers)
+
+#reversed
+
+achee=[0,12,24,36,48,60,72,84,96,108,120,132]
+
+def back(lst):
+    return list(reversed(lst))
+    
+sara=back(achee)
+    
+for number in sara:
+    print(number)
+    
+#evennumber
+
+for i in range(0, 133, 2):
+    print(i)
